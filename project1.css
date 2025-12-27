@@ -1,0 +1,40 @@
+#btnGreen {
+    background-color: green;
+}
+
+#btnOrange {
+    background-color: orange;
+}
+
+#btnPurple {
+    background-color: purple;
+}
+#btnGreen, #btnOrange, #btnPurple {
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#btnGreen:active, #btnOrange:active, #btnPurple:active {
+    scale: 0.92;
+}
+#btnGreen:hover {
+    background-color: rgb(1, 97, 1);
+}
+#btnOrange:hover {
+    background-color: rgb(161, 105, 1);
+}
+#btnPurple:hover {
+    background-color: rgb(93, 0, 93);
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
